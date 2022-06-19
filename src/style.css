@@ -190,3 +190,21 @@ body {
 .gradient-color-yellow::after {
   background: var(--gradient-color-yellow);
 }
+
+@media screen and (max-width: 320px) {
+  .battery--card {
+    zoom: 0.8;
+  }
+}
+
+@media screen and (min-width: 430px) {
+  .battery--card {
+    width: 312px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .battery--card {
+    zoom: 1.5;
+  }
+}
